@@ -1,0 +1,62 @@
+.banner {
+  height: 448px;
+  position: relative;
+  color: white;
+  object-fit: contain;
+}
+
+.content {
+  padding-top: 140px;
+  margin-left: 30px;
+  height: 190px;
+  position: absolute;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: 800px;
+  padding-bottom: 2px;
+}
+
+.btn {
+  margin-top: 10px;
+  height: 45px;
+  width: 130px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: rgba(51, 51, 51, 0.5);
+  font-weight: 700;
+  border-radius: 2px;
+}
+
+.btn1 {
+  margin-right: 10px;
+}
+
+.btn:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  transition: all 0.8s;
+}
+
+.summary {
+  font-size: 12px;
+  width: 300px;
+  line-height: 18px;
+  max-width: 360px;
+  height: 80px;
+  padding-top: 270px;
+  margin-left: 30px;
+}
+
+.lineargradient {
+  height: 100px;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    black
+  );
+}

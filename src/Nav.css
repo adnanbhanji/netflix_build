@@ -1,0 +1,74 @@
+.nav__content {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav__black {
+  background-color: #111;
+}
+
+.logo {
+  position: fixed;
+  left: 0;
+  height: 60px;
+  margin-left: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.user {
+  position: fixed;
+  right: 0;
+  height: 30px;
+  padding: 15px;
+  margin-right: 90px;
+  cursor: pointer;
+}
+
+.text {
+  position: fixed;
+  top: 0;
+  color: whitesmoke;
+  margin-left: 150px;
+  margin-top: 14px;
+  display: flex;
+  padding: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+p {
+  padding: 0 5px;
+}
+
+.icons {
+  position: fixed;
+  top: 0;
+  right: 150px;
+  color: whitesmoke;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  padding: 0 12px;
+}
+
+.icons-end {
+  position: fixed;
+  top: 0;
+  right: 75px;
+  color: whitesmoke;
+  cursor: pointer;
+
+  padding-top: 23px;
+}
